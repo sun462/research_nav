@@ -1,0 +1,63 @@
+[
+  {
+    "direction_name": "Event-Based Visual-Inertial SLAM and Navigation",
+    "description": "Research focused on leveraging event cameras for robust visual-inertial SLAM under challenging conditions (e.g., low light, motion blur, rapid dynamics), integrating learning-based priors, asynchronous processing, edge-aware front-ends, and real-time onboard deployment.",
+    "related_papers": [
+      "Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors",
+      "AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM"
+    ]
+  },
+  {
+    "direction_name": "Resource-Constrained and Nano-Scale Autonomous Navigation",
+    "description": "Algorithms, architectures, and system-level design for autonomous navigation under extreme SWaP constraints—especially for nano-UAVs—emphasizing ultra-low-power computing, Edge AI, neuromorphic control, and minimal solvers tailored to sub-100mW envelopes.",
+    "related_papers": [
+      "Autonomous Navigation at the Nano-Scale: Algorithms, Architectures, and Constraints",
+      "Efficient Minimal Solvers for Visual-Inertial Relative Pose Estimation in Multi-Camera Systems",
+      "Radio-based Multi-Robot Odometry and Relative Localization"
+    ]
+  },
+  {
+    "direction_name": "Perception-Aware and Feature-Guided Exploration & Control",
+    "description": "Navigation frameworks that explicitly couple state estimation reliability (e.g., VIO feature observability) with high-level decision-making—covering perception-aware exploration, attention-guided active sensing, and robust operation in feature-sparse or GNSS-denied environments.",
+    "related_papers": [
+      "Perception-Aware Autonomous Exploration in Feature-Limited Environments",
+      "Fast Human Attention Prediction for Fixation-guided Active Perception in Autonomous Navigation",
+      "Weather-Robust Cross-View Geo-Localization via Prototype-Based Semantic Part Discovery"
+    ]
+  },
+  {
+    "direction_name": "Multi-Sensor Fusion for Robust Detection, Tracking, and Threat Assessment",
+    "description": "Methods fusing heterogeneous sensors—including radar, RF, acoustic, optical, and inertial data—for reliable multi-object tracking, drone threat detection, behavioral intent classification, and GNSS-denied situational awareness in contested or cluttered airspace.",
+    "related_papers": [
+      "DroneShield-AI: A Multi-Modal Sensor Fusion Framework for Real-Time Autonomous Drone Threat Detection, Behavioral Intent Classification, and Swarm Intelligence in Contested Airspace",
+      "A Variational Message Passing Framework for Multi-Sensor Multi-Object Tracking using Raw Radar Signals",
+      "Radar and Acoustic Sensor Fusion using a Transformer Encoder for Robust Drone Detection and Classification",
+      "AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse"
+    ]
+  },
+  {
+    "direction_name": "LLM- and Agent-Driven Physical AI for UAV Networks and Spectrum Management",
+    "description": "Integration of large language models, multi-agent reinforcement learning, and digital twin technologies to enable intelligent, adaptive, and hierarchical control of UAV swarms—spanning command interfaces, spectrum/resource management, trajectory planning, connectivity optimization, and cooperative task execution in 5G/6G and LAE contexts.",
+    "related_papers": [
+      "A Universal Large Language Model -- Drone Command and Control Interface",
+      "TRIDENT: Breaking the Hybrid-Safety-Physics Coupling for Provably Safe Multi-Agent Reinforcement Learning",
+      "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks",
+      "Learn to Access and Backhaul the Sky: Multi-Scale Radio Map Guided Multi-UAV Cooperation",
+      "Digital Twin-Assisted Adaptive Multi-Agent DRL for Intelligent Spectrum and Resource Management in Open-RAN UAV-Enabled 6G Networks",
+      "Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks: Joint Optimization of Flight and Connectivity",
+      "Joint Optimization of Trajectory Control, Resource Allocation, and Task Offloading for Multi-UAV-Assisted IoV",
+      "Probe-and-Refine Tuning of Repository Guidance for Coding Agents",
+      "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving"
+    ]
+  },
+  {
+    "direction_name": "Embodied Learning, Pretraining, and Robot Design from Human Data",
+    "description": "Data-driven approaches to embodied AI that leverage human demonstrations—including egocentric video, fingertip motion, and teleoperation—to pretrain foundation models, generate robot morphologies, and bridge the gap between human behavior and robotic embodiment without requiring expensive real-robot data collection.",
+    "related_papers": [
+      "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+      "Generating Robot Hands from Human Demonstrations",
+      "MemoryWAM: Efficient World Action Modeling with Persistent Memory",
+      "AgriLiRa4D: A Multi-Sensor UAV Dataset for Robust SLAM in Challenging Agricultural Fields"
+    ]
+  }
+]

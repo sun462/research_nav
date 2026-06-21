@@ -1,0 +1,126 @@
+{
+  "coverage": {
+    "planned_subdomains": [
+      "Visual-inertial and SLAM-based navigation",
+      "Robust multi-sensor fusion and GNSS-denied navigation",
+      "Learning-based and neural navigation",
+      "Safe autonomous navigation stack integration"
+    ],
+    "covered_subdomains": [
+      "Visual-inertial and SLAM-based navigation",
+      "Robust multi-sensor fusion and GNSS-denied navigation",
+      "Learning-based and neural navigation",
+      "Safe autonomous navigation stack integration"
+    ],
+    "missing_subdomains": [],
+    "must_cover_missing": [],
+    "coverage_score": 1.0
+  },
+  "source_stats": {
+    "arxiv": {
+      "retrieved": 36,
+      "top_selected": 30,
+      "avg_score": 0.3351
+    }
+  },
+  "subdomain_stats": {
+    "Visual-inertial and SLAM-based navigation": {
+      "retrieved": 7,
+      "top_selected": 6,
+      "venue_hits": 0,
+      "avg_score": 0.34,
+      "venue_hit_rate": 0.0
+    },
+    "Robust multi-sensor fusion and GNSS-denied navigation": {
+      "retrieved": 12,
+      "top_selected": 11,
+      "venue_hits": 0,
+      "avg_score": 0.3741,
+      "venue_hit_rate": 0.0
+    },
+    "Learning-based and neural navigation": {
+      "retrieved": 9,
+      "top_selected": 6,
+      "venue_hits": 0,
+      "avg_score": 0.2927,
+      "venue_hit_rate": 0.0
+    },
+    "Safe autonomous navigation stack integration": {
+      "retrieved": 8,
+      "top_selected": 7,
+      "venue_hits": 0,
+      "avg_score": 0.3202,
+      "venue_hit_rate": 0.0
+    }
+  },
+  "channel_stats": {
+    "frontier": {
+      "retrieved": 36,
+      "top_selected": 30,
+      "avg_score": 0.3351
+    }
+  },
+  "trend_stats": {
+    "reinforcement_learning": {
+      "retrieved_recent": 17,
+      "top_selected_recent": 17,
+      "example_titles": [
+        "Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors",
+        "Autonomous Navigation at the Nano-Scale: Algorithms, Architectures, and Constraints",
+        "DroneShield-AI: A Multi-Modal Sensor Fusion Framework for Real-Time Autonomous Drone Threat Detection, Behavioral Intent Classification, and Swarm Intelligence in Contested Airspace",
+        "A Variational Message Passing Framework for Multi-Sensor Multi-Object Tracking using Raw Radar Signals",
+        "AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse"
+      ]
+    },
+    "agent": {
+      "retrieved_recent": 3,
+      "top_selected_recent": 3,
+      "example_titles": [
+        "AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse",
+        "City-VLM: Towards Multidomain Perception Scene Understanding via Multimodal Incomplete Learning",
+        "Graph Based Deep Reinforcement Learning Aided by Transformers for Multi-Agent Cooperation"
+      ]
+    },
+    "transformer": {
+      "retrieved_recent": 2,
+      "top_selected_recent": 2,
+      "example_titles": [
+        "Radar and Acoustic Sensor Fusion using a Transformer Encoder for Robust Drone Detection and Classification",
+        "Graph Based Deep Reinforcement Learning Aided by Transformers for Multi-Agent Cooperation"
+      ]
+    },
+    "llm": {
+      "retrieved_recent": 1,
+      "top_selected_recent": 1,
+      "example_titles": [
+        "City-VLM: Towards Multidomain Perception Scene Understanding via Multimodal Incomplete Learning"
+      ]
+    },
+    "vlm": {
+      "retrieved_recent": 1,
+      "top_selected_recent": 1,
+      "example_titles": [
+        "City-VLM: Towards Multidomain Perception Scene Understanding via Multimodal Incomplete Learning"
+      ]
+    },
+    "foundation_model": {
+      "retrieved_recent": 1,
+      "top_selected_recent": 1,
+      "example_titles": [
+        "FlexPath: Learned Semantic Path Priors for Image-Based Planning"
+      ]
+    }
+  },
+  "unplanned_trends": [
+    "agent",
+    "transformer"
+  ],
+  "suggestions": [
+    "Visual-inertial and SLAM-based navigation 召回数量过少，应扩展 query 或增加 venue-aware recall。",
+    "Visual-inertial and SLAM-based navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Robust multi-sensor fusion and GNSS-denied navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Learning-based and neural navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Safe autonomous navigation stack integration preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "近年趋势未被计划覆盖：agent, transformer。应新增对应子领域或 query。"
+  ]
+}

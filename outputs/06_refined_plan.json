@@ -1,0 +1,94 @@
+{
+  "global_queries": [
+    "drone navigation review",
+    "unmanned aerial vehicle guidance and control",
+    "autonomous flight navigation challenges"
+  ],
+  "seed_paper_queries": [
+    "survey UAV navigation",
+    "benchmark autonomous drone navigation",
+    "canonical paper visual inertial navigation"
+  ],
+  "source_weights": {
+    "openalex": 0.7,
+    "arxiv": 0.12,
+    "venue_aware": 0.18
+  },
+  "recall_channels": {
+    "topic": 0.34,
+    "recent": 0.25,
+    "venue_aware": 0.21,
+    "survey": 0.1,
+    "frontier": 0.1
+  },
+  "subdomains": [
+    {
+      "name": "Visual-inertial and SLAM-based navigation",
+      "weight": 0.35,
+      "must_cover": true,
+      "description": "Foundational for GNSS-denied operation; combines camera and IMU data for pose estimation and map building; enables real-time, drift-resilient localization in indoor and urban canyons.",
+      "queries": [
+        "visual inertial odometry UAV ICRA IROS",
+        "SLAM for drones CVPR IEEE Transactions on Robotics"
+      ],
+      "preferred_venues": [
+        "ICRA",
+        "IROS",
+        "CVPR",
+        "IEEE Transactions on Robotics",
+        "IEEE Transactions on Aerospace and Electronic Systems"
+      ]
+    },
+    {
+      "name": "Robust multi-sensor fusion and GNSS-denied navigation",
+      "weight": 0.3,
+      "must_cover": true,
+      "description": "Critical for safety-critical deployment; integrates LiDAR, UWB, barometer, magnetic, and vision under uncertainty; addresses sensor failure, latency, and environmental degradation.",
+      "queries": [
+        "multi sensor fusion drone IROS ICRA",
+        "GNSS-denied navigation UAV AIAA Journal of Guidance Control Dynamics"
+      ],
+      "preferred_venues": [
+        "ICRA",
+        "IROS",
+        "IEEE Transactions on Control Systems Technology",
+        "AIAA Journal of Guidance, Control, and Dynamics",
+        "Autonomous Robots"
+      ]
+    },
+    {
+      "name": "Learning-based and agent-aware navigation",
+      "weight": 0.2,
+      "must_cover": false,
+      "description": "Emerging paradigm integrating reinforcement learning, transformers, and multi-agent coordination for adaptive, generalizable navigation; includes neural planning, world models, and LLM/VLM-augmented perception-action loops.",
+      "queries": [
+        "transformer-based navigation for drones",
+        "multi-agent reinforcement learning UAV navigation"
+      ],
+      "preferred_venues": [
+        "CoRL",
+        "NeurIPS",
+        "ICRA",
+        "IROS",
+        "ICML"
+      ]
+    },
+    {
+      "name": "Safe autonomous navigation stack integration",
+      "weight": 0.15,
+      "must_cover": true,
+      "description": "Covers the system-level orchestration of perception, state estimation, planning, and control with formal guarantees on robustness, real-time performance, and certification-readiness.",
+      "queries": [
+        "autonomous drone navigation stack ICRA IROS",
+        "certifiable obstacle avoidance UAV IEEE Transactions on Aerospace Electronic Systems"
+      ],
+      "preferred_venues": [
+        "ICRA",
+        "IROS",
+        "IEEE Transactions on Aerospace and Electronic Systems",
+        "Journal of Field Robotics",
+        "Safety Science"
+      ]
+    }
+  ]
+}

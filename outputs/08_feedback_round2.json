@@ -1,0 +1,145 @@
+{
+  "coverage": {
+    "planned_subdomains": [
+      "Visual-inertial and SLAM-based navigation",
+      "Robust multi-sensor fusion and GNSS-denied navigation",
+      "Learning-based and agent-aware navigation",
+      "Safe autonomous navigation stack integration"
+    ],
+    "covered_subdomains": [
+      "Visual-inertial and SLAM-based navigation",
+      "Robust multi-sensor fusion and GNSS-denied navigation",
+      "Learning-based and agent-aware navigation"
+    ],
+    "missing_subdomains": [
+      "Safe autonomous navigation stack integration"
+    ],
+    "must_cover_missing": [
+      "Safe autonomous navigation stack integration"
+    ],
+    "coverage_score": 0.75
+  },
+  "source_stats": {
+    "arxiv": {
+      "retrieved": 70,
+      "top_selected": 30,
+      "avg_score": 0.3478
+    }
+  },
+  "subdomain_stats": {
+    "Visual-inertial and SLAM-based navigation": {
+      "retrieved": 19,
+      "top_selected": 11,
+      "venue_hits": 0,
+      "avg_score": 0.3533,
+      "venue_hit_rate": 0.0
+    },
+    "Robust multi-sensor fusion and GNSS-denied navigation": {
+      "retrieved": 17,
+      "top_selected": 11,
+      "venue_hits": 0,
+      "avg_score": 0.3655,
+      "venue_hit_rate": 0.0
+    },
+    "Learning-based and agent-aware navigation": {
+      "retrieved": 12,
+      "top_selected": 8,
+      "venue_hits": 0,
+      "avg_score": 0.367,
+      "venue_hit_rate": 0.0
+    },
+    "Safe autonomous navigation stack integration": {
+      "retrieved": 13,
+      "top_selected": 0,
+      "venue_hits": 0,
+      "avg_score": 0.3393,
+      "venue_hit_rate": 0.0
+    },
+    "Learning-based and neural navigation": {
+      "retrieved": 9,
+      "top_selected": 0,
+      "venue_hits": 0,
+      "avg_score": 0.289,
+      "venue_hit_rate": 0.0
+    }
+  },
+  "channel_stats": {
+    "frontier": {
+      "retrieved": 70,
+      "top_selected": 30,
+      "avg_score": 0.3478
+    }
+  },
+  "trend_stats": {
+    "reinforcement_learning": {
+      "retrieved_recent": 33,
+      "top_selected_recent": 26,
+      "example_titles": [
+        "Edged USLAM: Edge-Aware Event-Based SLAM with Learning-Based Depth Priors",
+        "Autonomous Navigation at the Nano-Scale: Algorithms, Architectures, and Constraints",
+        "Efficient Minimal Solvers for Visual-Inertial Relative Pose Estimation in Multi-Camera Systems",
+        "AERO-VIS: Asynchronous Event-based Real-time Onboard Visual-Inertial SLAM",
+        "Perception-Aware Autonomous Exploration in Feature-Limited Environments"
+      ]
+    },
+    "llm": {
+      "retrieved_recent": 7,
+      "top_selected_recent": 7,
+      "example_titles": [
+        "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+        "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+        "Probe-and-Refine Tuning of Repository Guidance for Coding Agents",
+        "A Universal Large Language Model -- Drone Command and Control Interface",
+        "Hierarchical LLM-Driven Control for HAPS-Assisted UAV Networks: Joint Optimization of Flight and Connectivity"
+      ]
+    },
+    "agent": {
+      "retrieved_recent": 12,
+      "top_selected_recent": 10,
+      "example_titles": [
+        "Execution-State Capsules: Graph-Bound Execution-State Checkpoint and Restore for Low-Latency, Small-Batch, On-Device Physical-AI Serving",
+        "AgentComm-Bench: Stress-Testing Cooperative Embodied AI Under Latency, Packet Loss, and Bandwidth Collapse",
+        "Probe-and-Refine Tuning of Repository Guidance for Coding Agents",
+        "TRIDENT: Breaking the Hybrid-Safety-Physics Coupling for Provably Safe Multi-Agent Reinforcement Learning",
+        "Game-Theoretic Multi-Agent Reinforcement Learning for Swarm Trajectory Planning in Low-Altitude Wireless Networks"
+      ]
+    },
+    "foundation_model": {
+      "retrieved_recent": 2,
+      "top_selected_recent": 1,
+      "example_titles": [
+        "HumanScale: Egocentric Human Video Can Outperform Real-Robot Data for Embodied Pretraining",
+        "FlexPath: Learned Semantic Path Priors for Image-Based Planning"
+      ]
+    },
+    "transformer": {
+      "retrieved_recent": 5,
+      "top_selected_recent": 3,
+      "example_titles": [
+        "Fast Human Attention Prediction for Fixation-guided Active Perception in Autonomous Navigation",
+        "Weather-Robust Cross-View Geo-Localization via Prototype-Based Semantic Part Discovery",
+        "Radar and Acoustic Sensor Fusion using a Transformer Encoder for Robust Drone Detection and Classification",
+        "MGTraj: Multi-Granularity Goal-Guided Human Trajectory Prediction with Recursive Refinement Network",
+        "Graph Based Deep Reinforcement Learning Aided by Transformers for Multi-Agent Cooperation"
+      ]
+    },
+    "vlm": {
+      "retrieved_recent": 2,
+      "top_selected_recent": 1,
+      "example_titles": [
+        "City-VLM: Towards Multidomain Perception Scene Understanding via Multimodal Incomplete Learning",
+        "FreeStyle: Free Control of Style-Content Dual-Reference Generation from Community LoRA Mining"
+      ]
+    }
+  },
+  "unplanned_trends": [],
+  "suggestions": [
+    "Topic coverage 不足：计划覆盖 4 个子领域，Top30 只覆盖 3 个，需要二次检索。",
+    "Safe autonomous navigation stack integration 在 Top30 中没有代表论文，应扩展该方向 query，并提高该方向二次检索配额。",
+    "Visual-inertial and SLAM-based navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Robust multi-sensor fusion and GNSS-denied navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Learning-based and agent-aware navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Safe autonomous navigation stack integration preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。",
+    "Learning-based and neural navigation preferred venue 命中率较低，应检查 preferred venues 或改用更具体 venue-aware query。"
+  ]
+}

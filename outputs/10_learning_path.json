@@ -1,0 +1,66 @@
+[
+  {
+    "stage": "Stage 1: Foundations of UAV Navigation",
+    "goal": "Build core understanding of UAV platforms, navigation fundamentals, and key sensor modalities",
+    "concepts": [
+      "UAV navigation",
+      "GNSS-denied navigation",
+      "inertial measurement units (IMUs)",
+      "camera models and image formation",
+      "basic kinematics and state estimation"
+    ],
+    "reading_suggestion": "Start with the 'Resource-Constrained and Nano-Scale Autonomous Navigation' and 'Perception-Aware and Feature-Guided Exploration & Control' directions to grasp real-world constraints and perception-driven design principles"
+  },
+  {
+    "stage": "Stage 2: Visual-Inertial Estimation and SLAM",
+    "goal": "Master the theory and practice of fusing visual and inertial data for pose estimation and mapping",
+    "concepts": [
+      "visual-inertial odometry",
+      "simultaneous localization and mapping",
+      "multi-sensor fusion",
+      "feature tracking",
+      "nonlinear optimization for pose graph SLAM"
+    ],
+    "reading_suggestion": "Focus on the 'Event-Based Visual-Inertial SLAM and Navigation' direction to understand modern VIO/SLAM challenges and asynchronous sensing paradigms"
+  },
+  {
+    "stage": "Stage 3: Planning, Control, and Robustness",
+    "goal": "Learn how to generate safe, efficient trajectories and ensure navigation reliability under uncertainty",
+    "concepts": [
+      "path planning",
+      "obstacle avoidance",
+      "navigation robustness",
+      "autonomous navigation",
+      "model predictive control",
+      "uncertainty-aware decision making"
+    ],
+    "reading_suggestion": "Explore the 'Perception-Aware and Feature-Guided Exploration & Control' and 'Multi-Sensor Fusion for Robust Detection, Tracking, and Threat Assessment' directions to connect estimation quality with planning safety and environmental awareness"
+  },
+  {
+    "stage": "Stage 4: Advanced Architectures and Embodied Intelligence",
+    "goal": "Understand emerging paradigms integrating learning, agents, and physical AI into navigation systems",
+    "concepts": [
+      "neural navigation",
+      "multi-sensor fusion",
+      "LLM- and agent-driven control",
+      "embodied learning",
+      "digital twins",
+      "swarm coordination"
+    ],
+    "reading_suggestion": "Study the 'LLM- and Agent-Driven Physical AI for UAV Networks and Spectrum Management' and 'Embodied Learning, Pretraining, and Robot Design from Human Data' directions to see how high-level reasoning and human-inspired learning reshape navigation stacks"
+  },
+  {
+    "stage": "Stage 5: Real-World Deployment and Cross-Domain Integration",
+    "goal": "Bridge theory with operational reality—addressing SWaP, interoperability, contested environments, and system-level validation",
+    "concepts": [
+      "GNSS-denied navigation",
+      "navigation robustness",
+      "multi-sensor fusion",
+      "edge AI",
+      "radio-frequency awareness",
+      "spectrum management",
+      "contested airspace operations"
+    ],
+    "reading_suggestion": "Synthesize insights from all directions—especially 'Multi-Sensor Fusion for Robust Detection, Tracking, and Threat Assessment' and 'Resource-Constrained and Nano-Scale Autonomous Navigation'—to appreciate full-stack navigation engineering in realistic deployment scenarios"
+  }
+]

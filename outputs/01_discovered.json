@@ -1,0 +1,24 @@
+{
+  "terms": [
+    "UAV navigation",
+    "autonomous navigation",
+    "visual-inertial odometry",
+    "simultaneous localization and mapping",
+    "path planning",
+    "obstacle avoidance",
+    "GNSS-denied navigation",
+    "neural navigation",
+    "navigation robustness",
+    "multi-sensor fusion"
+  ],
+  "global_queries": [
+    "drone navigation review",
+    "unmanned aerial vehicle guidance and control",
+    "autonomous flight navigation challenges"
+  ],
+  "seed_paper_queries": [
+    "survey UAV navigation",
+    "benchmark autonomous drone navigation",
+    "canonical paper visual inertial navigation"
+  ]
+}
